@@ -1,0 +1,52 @@
+:root {
+  /* 60% Dominant neutral canvas & light text surfaces */
+  --color-canvas: #f7f7f2;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #eff3ee;
+  --color-surface-emerald: #073f36;
+  --color-surface-emerald-deep: #052e27;
+
+  /* 30% Structural ink, muted text, hairline borders */
+  --color-ink: #162925;
+  --color-ink-secondary: #415953;
+  --color-ink-muted: #60736d;
+  --color-border: #dce4dc;
+  --color-border-strong: #c2d0c4;
+
+  /* 10% High-intent accents */
+  --color-accent: #073f36;
+  --color-accent-hover: #0b574b;
+  --color-teal: #11786b;
+  --color-gold: #c6963c;
+  --color-gold-hover: #b4852d;
+
+  /* Semantic state tokens (always paired with explicit text/icon) */
+  --color-success-bg: #e7f4ec;
+  --color-success-ink: #1b5c3f;
+  --color-warning-bg: #fdf5e4;
+  --color-warning-ink: #725219;
+  --color-warning-border: #ead7ad;
+  --color-danger: #9e3d35;
+  --color-danger-bg: #fdf0ef;
+
+  /* Typography (2+1 rule: Fraunces + Plus Jakarta Sans + JetBrains Mono) */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Spacing & Layout */
+  --container-max: 1200px;
+  --header-height: 68px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* Single-elevation shadow */
+  --shadow-card: 0 12px 32px rgba(10, 44, 34, 0.07);
+  --shadow-modal: 0 24px 64px rgba(5, 34, 27, 0.24);
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 160ms;
+}
